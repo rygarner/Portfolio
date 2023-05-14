@@ -1,0 +1,11 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+    background-color: darkgray;
+}
+
+h1 {
+    color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+}
