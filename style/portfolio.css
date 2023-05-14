@@ -33,6 +33,14 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+img {
+  display: block;
+}
+footer {
+  font-size: 12px;
+  padding-top: 20px;
+  text-align: center;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -69,6 +77,14 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+#contact {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
