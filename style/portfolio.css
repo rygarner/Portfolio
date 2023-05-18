@@ -9,6 +9,13 @@ font-family: 'Poppins', sans-serif; */
 
 body {
   font-family: var(--default-font-family);
+
+  background: linear-gradient(
+    300deg,
+    rgba(223, 220, 255, 1) 0%,
+    rgba(226, 254, 255, 1) 50%,
+    rgba(255, 212, 236, 1) 100%
+  );
 }
 
 h1,
@@ -58,6 +65,26 @@ footer {
   font-size: 24px;
   color: #272142;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
+.headshot {
+  display: block;
+  border: 10px groove rgba(136, 93, 241, 0.6);
+  border-radius: 150px;
+  box-shadow: 20px 10px 20px 7px rgba(0, 0, 0, 0.2);
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -82,7 +109,6 @@ footer {
   padding: 10px;
   margin: 10px;
   text-align: center;
-  align-items: center;
 }
 
 @media (max-width: 900px) {
@@ -102,5 +128,9 @@ footer {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
