@@ -115,6 +115,16 @@ footer .social-links a:hover {
   border-radius: 150px;
   box-shadow: 20px 10px 20px 7px rgba(0, 0, 0, 0.2);
 }
+.toolT {
+  text-align: center;
+  margin: 0 auto;
+}
+.tools {
+  display: inline-flex;
+  max-width: 15%;
+  padding: 0px 50px;
+  margin: 0 auto;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
